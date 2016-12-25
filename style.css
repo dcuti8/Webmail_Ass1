@@ -1,0 +1,10 @@
+/* style for webmail.html in COMP312 assignment 1 */
+body { font-family: Arial, Helvetica, sans-serif; }
+h1 { font-size: 1.2em; }
+form { margin: 1em;}
+
+#mlist { border-collapse: collapse; border: 1px solid gray; }
+#mlist thead { background-color: lightblue; border-bottom: 3px double black; }
+#mlist thead { text-align: left; }
+#mlist td, #mesglist th { border: 1px solid gray; padding: 2px 6px; }
+#mlist tr { height: 1.8em; }

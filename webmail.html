@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>  
+  <title>COMP312 Assignment 1</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+<h1>COMP312 Assignment 1</h1>
+<p><button type='button' id='refresh'>Refresh</button></p>
+ 
+<table id='mlist'>
+  <thead>
+    <tr>
+      <th class='sortby' data-by='from' id='col1'>From <img src="sort.png"/></th>
+      <th><img src="clip.png"/></th><th>Subject</th>
+      <th class='sortby' data-by='received' id='col3'>Received <img src="sort.png"/></th>
+      <th><img src="trash.png"/>
+    </tr>
+  </thead>
+  <tbody>      
+  </tbody>
+</table>
+
+<script src="jquery.js"></script>
+<script src='messages.js'></script>
+<script src='logic.js'></script>
+</body>
+</html>
